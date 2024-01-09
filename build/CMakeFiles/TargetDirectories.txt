@@ -1,0 +1,3 @@
+/home/logan/TP-Eartsup-Gcc2/build/CMakeFiles/tp.dir
+/home/logan/TP-Eartsup-Gcc2/build/CMakeFiles/edit_cache.dir
+/home/logan/TP-Eartsup-Gcc2/build/CMakeFiles/rebuild_cache.dir
