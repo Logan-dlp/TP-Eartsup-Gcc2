@@ -1,6 +1,7 @@
 # TP-Eartsup-Gcc2
 ---
 ## Plus Petit Ecart
+> Il est intéressant de prendre le tableau déjà trié pour gagner une boucle sur la complexité.
 ### Pour un tableau trié (O(n))
 ```
 Name: SmallestGapSorted
