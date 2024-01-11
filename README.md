@@ -39,3 +39,19 @@ BEGIN
         FinPour
     FinPour
 ```
+## Sous-ensemble avec somme donnée
+```
+Name: SubsetGivenSum
+input num: nombre quelconque cible
+input t: tableau quelconque
+Result bool: Si le nombre cible correspond à une somme dans le tableau alors ça renvoi true sion false
+BEGIN
+    Pour i=0, à i<taille de t-1, ++1
+        Pour j=i+1, à j<taille de t, ++j
+            Si t[i] + t[j] = num alors
+                Retourne Vrai
+            FinSi
+        FinPour
+    FinPour
+    Retourne Faux
+```
