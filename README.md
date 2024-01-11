@@ -38,6 +38,7 @@ BEGIN
             FinSi
         FinPour
     FinPour
+END
 ```
 ## Sous-ensemble avec somme donnée
 ```
@@ -54,4 +55,5 @@ BEGIN
         FinPour
     FinPour
     Retourne Faux
+END
 ```
