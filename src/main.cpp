@@ -31,8 +31,22 @@ int SmallestGapUnsorted(int* tab, int size){
     return aux;
 }
 
+bool SubsetGivenSum(int num, int* tab, int size){
+    for (int i = 0; i < size-1; ++i) {
+        for (int j = i+1; j < size; ++j) {
+            if (tab[i]+tab[j] == num){
+                return true;
+            }
+        }
+    }
+    return false;
+}
+
 int main(){
-    int tab[] = {5, 18, 7, 9, 11, 1};
-    std::cout << SmallestGapUnsorted(tab, std::size(tab)) << std::endl;
+    int num;
+    std::cin >> num;
+
+    int tab[] = {3, 34, 4, 12, 5, 2};
+    std::cout << SubsetGivenSum(num, tab, std::size(tab)) << std::endl;
     return 0;
 }
