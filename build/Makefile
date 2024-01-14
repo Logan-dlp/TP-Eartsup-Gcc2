@@ -129,6 +129,54 @@ tp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp.dir/build.make CMakeFiles/tp.dir/build
 .PHONY : tp/fast
 
+src/LinkedList.o: src/LinkedList.cpp.o
+.PHONY : src/LinkedList.o
+
+# target to build an object file
+src/LinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp.dir/build.make CMakeFiles/tp.dir/src/LinkedList.cpp.o
+.PHONY : src/LinkedList.cpp.o
+
+src/LinkedList.i: src/LinkedList.cpp.i
+.PHONY : src/LinkedList.i
+
+# target to preprocess a source file
+src/LinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp.dir/build.make CMakeFiles/tp.dir/src/LinkedList.cpp.i
+.PHONY : src/LinkedList.cpp.i
+
+src/LinkedList.s: src/LinkedList.cpp.s
+.PHONY : src/LinkedList.s
+
+# target to generate assembly for a file
+src/LinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp.dir/build.make CMakeFiles/tp.dir/src/LinkedList.cpp.s
+.PHONY : src/LinkedList.cpp.s
+
+src/Node.o: src/Node.cpp.o
+.PHONY : src/Node.o
+
+# target to build an object file
+src/Node.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp.dir/build.make CMakeFiles/tp.dir/src/Node.cpp.o
+.PHONY : src/Node.cpp.o
+
+src/Node.i: src/Node.cpp.i
+.PHONY : src/Node.i
+
+# target to preprocess a source file
+src/Node.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp.dir/build.make CMakeFiles/tp.dir/src/Node.cpp.i
+.PHONY : src/Node.cpp.i
+
+src/Node.s: src/Node.cpp.s
+.PHONY : src/Node.s
+
+# target to generate assembly for a file
+src/Node.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/tp.dir/build.make CMakeFiles/tp.dir/src/Node.cpp.s
+.PHONY : src/Node.cpp.s
+
 src/main.o: src/main.cpp.o
 .PHONY : src/main.o
 
@@ -162,6 +210,12 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... tp"
+	@echo "... src/LinkedList.o"
+	@echo "... src/LinkedList.i"
+	@echo "... src/LinkedList.s"
+	@echo "... src/Node.o"
+	@echo "... src/Node.i"
+	@echo "... src/Node.s"
 	@echo "... src/main.o"
 	@echo "... src/main.i"
 	@echo "... src/main.s"

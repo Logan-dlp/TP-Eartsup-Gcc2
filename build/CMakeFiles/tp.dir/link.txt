@@ -1,1 +1,1 @@
-/usr/bin/c++  -Wall -pedantic -std=c++17 -rdynamic CMakeFiles/tp.dir/src/main.cpp.o -o tp 
+/usr/bin/c++  -Wall -pedantic -std=c++17 -rdynamic CMakeFiles/tp.dir/src/LinkedList.cpp.o CMakeFiles/tp.dir/src/Node.cpp.o CMakeFiles/tp.dir/src/main.cpp.o -o tp 
